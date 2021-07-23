@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/zhu-redux/static/css/main.40bdad38.chunk.css",
-    "main.js": "/zhu-redux/static/js/main.ce9b8e3e.chunk.js",
-    "main.js.map": "/zhu-redux/static/js/main.ce9b8e3e.chunk.js.map",
+    "main.js": "/zhu-redux/static/js/main.b7f15dac.chunk.js",
+    "main.js.map": "/zhu-redux/static/js/main.b7f15dac.chunk.js.map",
     "runtime-main.js": "/zhu-redux/static/js/runtime-main.b351a54f.js",
     "runtime-main.js.map": "/zhu-redux/static/js/runtime-main.b351a54f.js.map",
-    "static/js/2.c7fa555e.chunk.js": "/zhu-redux/static/js/2.c7fa555e.chunk.js",
-    "static/js/2.c7fa555e.chunk.js.map": "/zhu-redux/static/js/2.c7fa555e.chunk.js.map",
+    "static/js/2.a179ce13.chunk.js": "/zhu-redux/static/js/2.a179ce13.chunk.js",
+    "static/js/2.a179ce13.chunk.js.map": "/zhu-redux/static/js/2.a179ce13.chunk.js.map",
     "static/js/3.4c6ef525.chunk.js": "/zhu-redux/static/js/3.4c6ef525.chunk.js",
     "static/js/3.4c6ef525.chunk.js.map": "/zhu-redux/static/js/3.4c6ef525.chunk.js.map",
     "index.html": "/zhu-redux/index.html",
     "static/css/main.40bdad38.chunk.css.map": "/zhu-redux/static/css/main.40bdad38.chunk.css.map",
-    "static/js/2.c7fa555e.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.c7fa555e.chunk.js.LICENSE.txt",
+    "static/js/2.a179ce13.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.a179ce13.chunk.js.LICENSE.txt",
     "static/media/App.css": "/zhu-redux/static/media/Montserrat-Light.02afb26f.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.b351a54f.js",
-    "static/js/2.c7fa555e.chunk.js",
+    "static/js/2.a179ce13.chunk.js",
     "static/css/main.40bdad38.chunk.css",
-    "static/js/main.ce9b8e3e.chunk.js"
+    "static/js/main.b7f15dac.chunk.js"
   ]
 }
