@@ -16,12 +16,7 @@ import Footer from './components/footer';
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>
-        <Router>
-          < Navbar />
-          < Cart />
           <App />
-          < Footer />
-        </Router>
       </Provider>
   </React.StrictMode>,
   document.getElementById('root')

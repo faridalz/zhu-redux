@@ -1,4 +1,4 @@
-import {Routes,Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import MainPage from "./components/mainPage";
 import Music from "./components/music";
 import Gallery from "./components/gallery";
@@ -6,12 +6,18 @@ import GalleryOther from "./components/galleryOther";
 import Videos from "./components/videos";
 
 import './App.css';
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import Cart from "./components/cart";
 
 
 
 const App = () => {
   return (
-    <>
+    <div>
+      <Router>
+      < Navbar />
+      < Cart />
         <Routes>
           <Route path= '/' element={< MainPage />} />
           <Route path= 'music' element={<Music />} />
@@ -19,7 +25,9 @@ const App = () => {
           <Route path= 'gallery-other' element={<GalleryOther />} />
           <Route path= 'videos' element={<Videos />} />
         </Routes>
-    </>    
+        < Footer />
+      </Router>
+    </div>    
   );
 }
 
