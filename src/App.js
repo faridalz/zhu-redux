@@ -14,20 +14,20 @@ import Cart from "./components/cart";
 
 const App = () => {
   return (
-    <div>
       <Router>
-      < Navbar />
-      < Cart />
-        <Routes>
-          <Route path= '/' element={< MainPage />} />
-          <Route path= 'music' element={<Music />} />
-          <Route path= 'gallery' element={<Gallery />} />
-          <Route path= 'gallery-other' element={<GalleryOther />} />
-          <Route path= 'videos' element={<Videos />} />
-        </Routes>
-        < Footer />
+        <div>
+          < Navbar />
+          < Cart />
+          <Routes>
+            <Route path= '/' element={< MainPage />} />
+            <Route path= 'music' element={<Music />} />
+            <Route path= 'gallery' element={<Gallery />} />
+            <Route path= 'gallery-other' element={<GalleryOther />} />
+            <Route path= 'videos' element={<Videos />} />
+          </Routes>
+          < Footer />
+        </div>
       </Router>
-    </div>    
   );
 }
 
