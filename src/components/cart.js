@@ -5,11 +5,13 @@ import { removefromCart } from '../redux/cartSlice';
 import { decreasetheItem } from '../redux/cartSlice';
 import { increasetheItem } from '../redux/cartSlice';
 import {useSelector} from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 
 
 
 const Cart = () => {
+    const dispatch = useDispatch();
     const cart = useSelector((state) => state.cart.cart);
 
     const totalPrice = cart.reduce((total, item) => (total += item.price * item.count), 0);   
@@ -28,9 +30,9 @@ const Cart = () => {
                                  <p className="itemInfo">Price: {item.price}$</p>
                                  <p className="itemInfo">Ordered {item.count} items.</p>
                                  <p className="itemPrice">Total: ${item.price * item.count}</p>
-                                 <button onClick={() => decreasetheItem(item)} className="btn btn-primary">-</button>
-                                 <button onClick={() => removefromCart(item)} className="removeButton btn btn-danger">Remove</button>
-                                 <button onClick={() => increasetheItem(item)} className="btn btn-primary">+</button>
+                                 <button onClick={() => dispatch(decreasetheItem(item))} className="btn btn-primary">-</button>
+                                 <button onClick={() => dispatch(removefromCart(item))} className="removeButton btn btn-danger">Remove</button>
+                                 <button onClick={() => dispatch(increasetheItem(item))} className="btn btn-primary">+</button>
                              </div>
                              <hr />
 

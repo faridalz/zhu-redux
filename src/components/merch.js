@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import { addtoCart } from '../redux/cartSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
-const Merch = (props) => {
+const Merch = () => {
     const itemList = useSelector((state) => state.cart.itemList);
     const dispatch = useDispatch();
     return (
