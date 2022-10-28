@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zhu-redux/static/css/main.6c80f449.chunk.css",
-    "main.js": "/zhu-redux/static/js/main.5801d900.chunk.js",
-    "main.js.map": "/zhu-redux/static/js/main.5801d900.chunk.js.map",
+    "main.js": "/zhu-redux/static/js/main.f6d311ad.chunk.js",
+    "main.js.map": "/zhu-redux/static/js/main.f6d311ad.chunk.js.map",
     "runtime-main.js": "/zhu-redux/static/js/runtime-main.a9477f22.js",
     "runtime-main.js.map": "/zhu-redux/static/js/runtime-main.a9477f22.js.map",
-    "static/js/2.2e0341e6.chunk.js": "/zhu-redux/static/js/2.2e0341e6.chunk.js",
-    "static/js/2.2e0341e6.chunk.js.map": "/zhu-redux/static/js/2.2e0341e6.chunk.js.map",
+    "static/js/2.56ff15ad.chunk.js": "/zhu-redux/static/js/2.56ff15ad.chunk.js",
+    "static/js/2.56ff15ad.chunk.js.map": "/zhu-redux/static/js/2.56ff15ad.chunk.js.map",
     "index.html": "/zhu-redux/index.html",
     "static/css/main.6c80f449.chunk.css.map": "/zhu-redux/static/css/main.6c80f449.chunk.css.map",
-    "static/js/2.2e0341e6.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.2e0341e6.chunk.js.LICENSE.txt",
+    "static/js/2.56ff15ad.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.56ff15ad.chunk.js.LICENSE.txt",
     "static/media/83103491_202388367480184_1284322106362841989_n 1.c41b1209.png": "/zhu-redux/static/media/83103491_202388367480184_1284322106362841989_n 1.c41b1209.png",
     "static/media/Group 28.58106e51.png": "/zhu-redux/static/media/Group 28.58106e51.png",
     "static/media/App.css": "/zhu-redux/static/media/Montserrat-Light.02afb26f.ttf",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a9477f22.js",
-    "static/js/2.2e0341e6.chunk.js",
+    "static/js/2.56ff15ad.chunk.js",
     "static/css/main.6c80f449.chunk.css",
-    "static/js/main.5801d900.chunk.js"
+    "static/js/main.f6d311ad.chunk.js"
   ]
 }

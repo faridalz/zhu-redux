@@ -7,7 +7,7 @@ import Logofooter  from '../images/Logo-removebg-preview 3.png';
 export default class Footer extends Component {
     render() {
         return (
-            <div>
+            <div className='footerPage'>
                 <footer className="panel-footer">
                     <div className="container">
                         <div className="row">

@@ -17,7 +17,7 @@ export default function MainPage() {
     }, 3000);
   }, []);
   return (
-      <div>
+      <div className="mainPage">
         {
           isLoading ?
           <div style={{marginBottom: "110%"}}>

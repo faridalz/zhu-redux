@@ -25,7 +25,6 @@ const Merch = () => {
                     </div>
                  ))}
                 </section>  
-                <button id="view">View More Items</button>  
             </div>
         </div>        
     )
