@@ -20,7 +20,7 @@ const Music = () => {
               {
                 loading ?
                 <div style={{marginBottom: "110%"}}>
-                  <div className="page-loader" loading = {loading}>
+                  <div className="page-loader">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -32,14 +32,14 @@ const Music = () => {
                     <div className="otherHeader">MUSIC</div>
 
                     < MusicMobile />
-                    <section style={{margin: "0px"}} class="row musicLists"> 
+                    <section style={{margin: "0px"}} className="row musicLists"> 
                         <div className="col-md-6 d-none d-md-block d-xl-block trackList">   
                             <div>Generation Why <br /> Tracklist</div>
                             {trackList.map(item => (
                                 <a key={item.id} style={{textDecoration: "none"}} href="/"><div>{item.name}</div></a>
                             ))}
                         </div>
-                        <div class="col-md-6 d-none d-md-block d-xl-block albumList">   
+                        <div className="col-md-6 d-none d-md-block d-xl-block albumList">   
                             <div>Albums</div>
                             {albumList.map(item => (
                                 <a key={item.id}  style={{textDecoration: "none"}} href="/"><div>{item.name}</div></a>

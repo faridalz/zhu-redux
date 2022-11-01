@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {toggleNav2} from "../js/script";
 import {toggleNav3} from "../js/script";
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import {menuToggle} from "../js/script";
 import * as Scroll from "react-scroll";
 import {useSelector} from 'react-redux';
@@ -43,9 +43,7 @@ const Navbar = () => {
             deezer.style.visibility = "visible";
             sound.style.visibility = "visible";
             music.style.visibility = "visible";
-            document.querySelector('.mainPage').style.display = 'none';
-            document.querySelector('.toggleMenu').style.display = 'none';
-            document.querySelector('.footerPage').style.display = 'none';
+            document.querySelector('body').style.overflow = 'hidden';
             toggleNavStatus = true;
             
         }
@@ -57,9 +55,7 @@ const Navbar = () => {
             deezer.style.visibility = "hidden";
             sound.style.visibility = "hidden";
             music.style.visibility = "hidden";
-            document.querySelector('.mainPage').style.display = 'block';
-            document.querySelector('.toggleMenu').style.display = 'block';
-            document.querySelector('.footerPage').style.display = 'block';
+            document.querySelector('body').style.overflow = 'auto';
             toggleNavStatus = false;
             }
 
@@ -75,9 +71,20 @@ const Navbar = () => {
             document.querySelector('.navbar-nav .musicLogo').style.visibility = "hidden"
             document.querySelector('.navbar-nav .deezerLogo').style.visibility = "hidden"
             document.querySelector('.navbar-nav .soundLogo').style.visibility = "hidden"
-            document.querySelector('.toggleMenu').style.display = 'block';
-            document.querySelector('.footerPage').style.display = 'block';
-           
+            document.querySelector('body').style.overflow = 'auto';
+            toggleNavStatus = false;
+        }
+    }
+
+    const toggleNav4 = function() {
+        document.querySelector('#hell1').style.display = 'none';
+        if(window.innerWidth < 767){
+            document.querySelector('.navbar-nav').style.width = '0px';
+            document.querySelector('.navbar-nav .spotifyLogo').style.visibility = "hidden"
+            document.querySelector('.navbar-nav .musicLogo').style.visibility = "hidden"
+            document.querySelector('.navbar-nav .deezerLogo').style.visibility = "hidden"
+            document.querySelector('.navbar-nav .soundLogo').style.visibility = "hidden"
+            document.querySelector('body').style.overflow = 'auto';
             toggleNavStatus = false;
         }
     }
@@ -98,12 +105,25 @@ const Navbar = () => {
                             </button>
                             <div className="navbar-collapse" id="nav1">
                                 <div className="navbar-nav">
-                                    <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell1" to="shows" smooth={true} duration={1000}>SHOWS</Scroll.Link>
-                                    <Link onClick={toggleNav3} className="nav-item nav-link hell2" to="music">MUSIC</Link>
-                                    <Link onClick={toggleNav3} className="nav-item nav-link hell3" to="videos">VIDEO</Link>
-                                    <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell4 js11" to="merch" smooth={true} duration={1000}>MERCH</Scroll.Link>
-                                    <Link onClick={toggleNav3} className="nav-item nav-link hell5" to="gallery">GALLERY</Link>
+                                    {window.innerWidth < 767 ?       
+                                    <Link onClick={toggleNav3} className="nav-item nav-link hell1" to="">HOME</Link>
+                                    : 
+                                    <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell1" to="shows" smooth={true} duration={1000}>SHOWS</Scroll.Link>}
+
+                                    <NavLink onClick={f} className="nav-item nav-link hell2" to="music" style={({ isActive }) =>
+                                    {return { color: isActive ? '#008956' : '#DCEFEB'};}} >MUSIC</NavLink>
+                                    <NavLink onClick={toggleNav3} className="nav-item nav-link hell3" to="videos" style={({ isActive }) =>
+                                    {return { color: isActive ? '#008956' : '#DCEFEB'};}} >VIDEO</NavLink>
+                                    
+                                    {window.innerWidth > 767 &&
+                                    <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell4 js11" to="merch" smooth={true} duration={1000}>MERCH</Scroll.Link>}
+                                    
+                                    <NavLink onClick={toggleNav3} className="nav-item nav-link hell5" to="gallery" style={({ isActive }) =>
+                                    {return { color: isActive ? '#008956' : '#DCEFEB'};}} >GALLERY</NavLink>
+                                    
+                                    {window.innerWidth > 767 &&
                                     <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell6 js11" to="about" smooth={true} duration={1000}>ABOUT</Scroll.Link>                        
+                                    }
                                     <Link className="nav-item d-block d-sm-none d-sm-block d-md-none spotifyLogo" to="#">
                                         <img src={Vector1}  alt="vector1" />
                                     </Link>

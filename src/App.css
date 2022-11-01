@@ -185,6 +185,7 @@ body {
   margin-bottom: -1px;
   border-bottom: 0.5px solid #B5BCBB;
   border-top: 0.5px solid #B5BCBB;
+  cursor: pointer;
 }
 
 #nav1>div>a::after{
@@ -216,9 +217,6 @@ body {
   }
 }
 
-#nav1>div>.hell1, #nav1>div>.hell4, #nav1>div>.hell6 {
-  cursor: pointer;
-}
 
 
 
@@ -1244,50 +1242,34 @@ section.musicLists{
 
 
   #nav1>div>.nav-link {
-    position: absolute;
-    color: #008956;
-    top: 28%;
-    left: 43%;
-    padding-left: 0.1vw;
-    padding-right: 0.1vw;
-    line-height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #DCEFEB;
     font-size: 4vw;
     font-family: Mont;
-    margin-right: 2%;
     z-index: 10000;
-    margin-top: 0%;
+    margin-top: 20px;
   }
 
-
-  #nav1>div>.hell1 {
-    left: 42%;
-    cursor: pointer;
+  #nav1>div>.nav-link:nth-child(1){
+    margin-top: 150px;
   }
 
-
+  #nav1>div>a {
+    margin-top: 20px;
+  }
   
-  #nav1>div>.hell2 {
-    top: 38%;
+  #nav1>div>a:hover {
+    color: #6bddb3;
+    margin-top: 20px;
+    margin-bottom: 0;
+    border: none;
   }
 
-  #nav1>div>.hell3 {
-    top: 48%;
-  }
-  #nav1>div>.hell4 {
-    top: 58%;
-    left: 42%;
-    cursor: pointer;
-  }
-  #nav1>div>.hell5 {
-    top: 68%;
-    left: 41%;
 
-  
-  }
-  #nav1>div>.hell6 {
-    top: 78%;
-    cursor: pointer;
-  }
+
+
 
   .navbar-nav {
     position: fixed;
@@ -1307,7 +1289,7 @@ section.musicLists{
 
   .spotifyLogo, .musicLogo, .deezerLogo, .soundLogo {
     position: absolute;
-    top: 88%;
+    top: 80%;
     margin-top: 0%;
   }
 
@@ -1334,16 +1316,15 @@ section.musicLists{
   
 
  
-
-  #nav1>div>a:hover {
-    color: #05a86d9d;
-    border: 0px;
-  }
-
+ 
 
   #hell {
     display: block;
-    
+  }
+
+
+  .hell1 {
+    color: #DCEFEB;
   }
 
 

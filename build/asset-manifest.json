@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/zhu-redux/static/css/main.6c80f449.chunk.css",
-    "main.js": "/zhu-redux/static/js/main.f6d311ad.chunk.js",
-    "main.js.map": "/zhu-redux/static/js/main.f6d311ad.chunk.js.map",
+    "main.css": "/zhu-redux/static/css/main.21405f38.chunk.css",
+    "main.js": "/zhu-redux/static/js/main.14a7ec1f.chunk.js",
+    "main.js.map": "/zhu-redux/static/js/main.14a7ec1f.chunk.js.map",
     "runtime-main.js": "/zhu-redux/static/js/runtime-main.a9477f22.js",
     "runtime-main.js.map": "/zhu-redux/static/js/runtime-main.a9477f22.js.map",
-    "static/js/2.56ff15ad.chunk.js": "/zhu-redux/static/js/2.56ff15ad.chunk.js",
-    "static/js/2.56ff15ad.chunk.js.map": "/zhu-redux/static/js/2.56ff15ad.chunk.js.map",
+    "static/css/2.a8027b44.chunk.css": "/zhu-redux/static/css/2.a8027b44.chunk.css",
+    "static/js/2.e810f445.chunk.js": "/zhu-redux/static/js/2.e810f445.chunk.js",
+    "static/js/2.e810f445.chunk.js.map": "/zhu-redux/static/js/2.e810f445.chunk.js.map",
     "index.html": "/zhu-redux/index.html",
-    "static/css/main.6c80f449.chunk.css.map": "/zhu-redux/static/css/main.6c80f449.chunk.css.map",
-    "static/js/2.56ff15ad.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.56ff15ad.chunk.js.LICENSE.txt",
+    "static/css/2.a8027b44.chunk.css.map": "/zhu-redux/static/css/2.a8027b44.chunk.css.map",
+    "static/css/main.21405f38.chunk.css.map": "/zhu-redux/static/css/main.21405f38.chunk.css.map",
+    "static/js/2.e810f445.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.e810f445.chunk.js.LICENSE.txt",
+    "static/media/126307605_2897984023769750_1708272536119593819_n 1.8c6546be.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 1.8c6546be.png",
+    "static/media/126307605_2897984023769750_1708272536119593819_n 2.efe312e6.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 2.efe312e6.png",
+    "static/media/126307605_2897984023769750_1708272536119593819_n 3.93ec7619.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 3.93ec7619.png",
     "static/media/83103491_202388367480184_1284322106362841989_n 1.c41b1209.png": "/zhu-redux/static/media/83103491_202388367480184_1284322106362841989_n 1.c41b1209.png",
+    "static/media/96509447_574956686472298_2126796323122172362_n 1.6fa07341.png": "/zhu-redux/static/media/96509447_574956686472298_2126796323122172362_n 1.6fa07341.png",
     "static/media/Group 28.58106e51.png": "/zhu-redux/static/media/Group 28.58106e51.png",
     "static/media/App.css": "/zhu-redux/static/media/Montserrat-Light.02afb26f.ttf",
     "static/media/Logo-removebg-preview 3.48f75ebd.png": "/zhu-redux/static/media/Logo-removebg-preview 3.48f75ebd.png",
@@ -29,15 +35,22 @@
     "static/media/Rectangle 33.73f468ea.png": "/zhu-redux/static/media/Rectangle 33.73f468ea.png",
     "static/media/Rectangle 34.e7ddcc65.png": "/zhu-redux/static/media/Rectangle 34.e7ddcc65.png",
     "static/media/Rectangle 35.15d55b31.png": "/zhu-redux/static/media/Rectangle 35.15d55b31.png",
+    "static/media/Rectangle 50.13b07e71.png": "/zhu-redux/static/media/Rectangle 50.13b07e71.png",
+    "static/media/Rectangle 51.ff337a47.png": "/zhu-redux/static/media/Rectangle 51.ff337a47.png",
+    "static/media/Rectangle 52.e4054c98.png": "/zhu-redux/static/media/Rectangle 52.e4054c98.png",
     "static/media/Rectangle 65.f7175843.png": "/zhu-redux/static/media/Rectangle 65.f7175843.png",
     "static/media/Rectangle 66.604cb926.png": "/zhu-redux/static/media/Rectangle 66.604cb926.png",
+    "static/media/emmyslattery_20201103_0 1.5d0b2a91.png": "/zhu-redux/static/media/emmyslattery_20201103_0 1.5d0b2a91.png",
     "static/media/img_0894 1.02775f8b.png": "/zhu-redux/static/media/img_0894 1.02775f8b.png",
-    "static/media/shopping-white1.31dd5e3b.svg": "/zhu-redux/static/media/shopping-white1.31dd5e3b.svg"
+    "static/media/shopping-white1.31dd5e3b.svg": "/zhu-redux/static/media/shopping-white1.31dd5e3b.svg",
+    "static/media/shopping2.7e4ec425.svg": "/zhu-redux/static/media/shopping2.7e4ec425.svg",
+    "static/media/slick-theme.css": "/zhu-redux/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.a9477f22.js",
-    "static/js/2.56ff15ad.chunk.js",
-    "static/css/main.6c80f449.chunk.css",
-    "static/js/main.f6d311ad.chunk.js"
+    "static/css/2.a8027b44.chunk.css",
+    "static/js/2.e810f445.chunk.js",
+    "static/css/main.21405f38.chunk.css",
+    "static/js/main.14a7ec1f.chunk.js"
   ]
 }
