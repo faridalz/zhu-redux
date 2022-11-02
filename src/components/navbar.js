@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import {toggleNav2} from "../js/script";
-import {toggleNav3} from "../js/script";
+
 import {Link, NavLink} from "react-router-dom";
-import {menuToggle} from "../js/script";
 import * as Scroll from "react-scroll";
 import {useSelector} from 'react-redux';
 import Logo from '../images/Logo-removebg-preview 2.png'
@@ -20,6 +18,7 @@ const Navbar = () => {
     const cart = useSelector((state) => state.cart.cart);
 
     const [cartCount, setCartCount] = useState(0);
+    const [homeNav, setHomeNav] = useState(false);
     useEffect(() => {
         let count = 0;
         cart.forEach(item=> {
@@ -65,6 +64,10 @@ const Navbar = () => {
 
 
     const toggleNav3 = function() {
+        setHomeNav(false);
+        document.getElementById('showsNav').style.display = 'block';
+        document.getElementById('merchNav').style.display = 'block';
+        document.getElementById('aboutNav').style.display = 'block';
         if(window.innerWidth < 767){
             document.querySelector('.navbar-nav').style.width = '0px';
             document.querySelector('.navbar-nav .spotifyLogo').style.visibility = "hidden"
@@ -77,7 +80,11 @@ const Navbar = () => {
     }
 
     const toggleNav4 = function() {
-        document.querySelector('#hell1').style.display = 'none';
+        document.getElementById('showsNav').style.display = 'none';
+        document.getElementById('merchNav').style.display = 'none';
+        document.getElementById('aboutNav').style.display = 'none';
+        setHomeNav(true);
+        console.log('ndjkcsdkcnjds');
         if(window.innerWidth < 767){
             document.querySelector('.navbar-nav').style.width = '0px';
             document.querySelector('.navbar-nav .spotifyLogo').style.visibility = "hidden"
@@ -95,7 +102,7 @@ const Navbar = () => {
                 <div className="main">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container">
-                            <Link className="navbar-brand" to="">
+                            <Link onClick={toggleNav3} className="navbar-brand" to="">
                                 <img src={Logo} alt="logo" />
                             </Link>
                             <button onClick={mobileToggleNav} id="butt2" className="navbar-toggler buttt" type="button">
@@ -105,25 +112,23 @@ const Navbar = () => {
                             </button>
                             <div className="navbar-collapse" id="nav1">
                                 <div className="navbar-nav">
-                                    {window.innerWidth < 767 ?       
-                                    <Link onClick={toggleNav3} className="nav-item nav-link hell1" to="">HOME</Link>
-                                    : 
-                                    <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell1" to="shows" smooth={true} duration={1000}>SHOWS</Scroll.Link>}
+                                    {homeNav &&
+                                        <Link id='homeNav' onClick={toggleNav3} className="nav-item nav-link hell1" to="">HOME</Link>
+                                    }
+                                    <Scroll.Link id='showsNav' onClick={toggleNav3} className="nav-item nav-link hell1" to="shows" smooth={true} duration={1000}>SHOWS</Scroll.Link>
 
-                                    <NavLink onClick={f} className="nav-item nav-link hell2" to="music" style={({ isActive }) =>
+                                    <NavLink onClick={toggleNav4} className="nav-item nav-link hell2" to="music" style={({ isActive }) =>
                                     {return { color: isActive ? '#008956' : '#DCEFEB'};}} >MUSIC</NavLink>
-                                    <NavLink onClick={toggleNav3} className="nav-item nav-link hell3" to="videos" style={({ isActive }) =>
+                                    <NavLink onClick={toggleNav4} className="nav-item nav-link hell3" to="videos" style={({ isActive }) =>
                                     {return { color: isActive ? '#008956' : '#DCEFEB'};}} >VIDEO</NavLink>
                                     
-                                    {window.innerWidth > 767 &&
-                                    <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell4 js11" to="merch" smooth={true} duration={1000}>MERCH</Scroll.Link>}
+                                    <Scroll.Link id='merchNav' onClick={toggleNav3} className="nav-item nav-link hell4 js11" to="merch" smooth={true} duration={1000}>MERCH</Scroll.Link>
                                     
-                                    <NavLink onClick={toggleNav3} className="nav-item nav-link hell5" to="gallery" style={({ isActive }) =>
+                                    <NavLink onClick={toggleNav4} className="nav-item nav-link hell5" to="gallery" style={({ isActive }) =>
                                     {return { color: isActive ? '#008956' : '#DCEFEB'};}} >GALLERY</NavLink>
                                     
-                                    {window.innerWidth > 767 &&
-                                    <Scroll.Link onClick={toggleNav3} className="nav-item nav-link hell6 js11" to="about" smooth={true} duration={1000}>ABOUT</Scroll.Link>                        
-                                    }
+                                    <Scroll.Link id='aboutNav' onClick={toggleNav3} className="nav-item nav-link hell6 js11" to="about" smooth={true} duration={1000}>ABOUT</Scroll.Link>                        
+                                    
                                     <Link className="nav-item d-block d-sm-none d-sm-block d-md-none spotifyLogo" to="#">
                                         <img src={Vector1}  alt="vector1" />
                                     </Link>

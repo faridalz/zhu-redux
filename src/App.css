@@ -175,7 +175,6 @@ body {
   font-family: Hind;
   font-size: 1.2vw;
   border: none;
-
 }
 
 #nav1>div>a:hover {
@@ -1249,20 +1248,20 @@ section.musicLists{
     font-size: 4vw;
     font-family: Mont;
     z-index: 10000;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   #nav1>div>.nav-link:nth-child(1){
-    margin-top: 150px;
+    margin-top: 90px;
   }
 
   #nav1>div>a {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   #nav1>div>a:hover {
     color: #6bddb3;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 0;
     border: none;
   }
@@ -1289,7 +1288,7 @@ section.musicLists{
 
   .spotifyLogo, .musicLogo, .deezerLogo, .soundLogo {
     position: absolute;
-    top: 80%;
+    top: 83%;
     margin-top: 0%;
   }
 
