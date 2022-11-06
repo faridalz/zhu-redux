@@ -10,11 +10,9 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Cart from "./components/cart";
 
-
-// basename={ process.env.PUBLIC_URL + '/' }
 const App = () => {
   return (
-      <Router>
+      <Router basename={ process.env.PUBLIC_URL + '/' }>
         <div>
           < Navbar />
           < Cart />

@@ -1,13 +1,18 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import {useSelector } from 'react-redux';
+import musicLines from '../images/Line 22.png';
+import musicGroup from '../images/Group.png';
+import musicArrowNext from '../images/image.png';
+import musicArrow from '../images/arrow-66-16.png';
+
 
 const MusicMobile = () => {
     const trackList = useSelector((state) => state.cart.trackList);
     return (
         <div>
-            <Link className="d-block d-sm-none d-sm-block d-md-none musicAlbum" to="/music"><p>Album</p></Link>
-            <Link className="d-block d-sm-none d-sm-block d-md-none musicSingle" to="/music/single"><p>Single</p></Link>
+            <Link className="musicAlbum" to="/music"><p>Album</p></Link>
+            <Link className="musicSingle" to="/music/single"><p>Single</p></Link>
 
 
 
@@ -15,25 +20,26 @@ const MusicMobile = () => {
                 <div className="carousel-inner">
                     {trackList.map(item => (
                         <div className={item.id === 1 ? "carousel-item active" : "carousel-item"} key={item.id}>
-                            <img className="musicLines1" src="images/Line 22.png" alt="" />
-                            <img className="musicLines2" src="images/Line 22.png" alt="" />
-                            <img className="musicLines3" src="images/Line 22.png" alt="" />
-                            <img className="musicLines4" src="images/Line 22.png" alt="" />
+                            <img className="musicLines1" src={musicLines} alt="musicLines" />
+                            <img className="musicLines2" src={musicLines} alt="musicLines" />
+                            <img className="musicLines3" src={musicLines} alt="musicLines" />
+                            <img className="musicLines4" src={musicLines} alt="musicLines" />
                             <div style={{background: "transparent"}} id="musicSurface">
                                 <img className="musicImg1" src={item.image} alt="" />
                                 <p id="musicP1">{item.name}</p>
-                                <img className="musicImg2" src="images/Group.png" alt="" />
+                                <img className="musicImg2" src={musicGroup} alt="musicGroup" />
                                 <p id="musicP2">{item.date}</p>
                             </div>
                         </div>
                     ))}     
                 </div>
                 <a className="carousel-control-prev" href="#musicSlider" role="button" data-slide="prev">
-                    <img style={{position: "absolute", width: "21%", left: "38%", top: "0%", marginTop: "381%", marginLeft: "63%"}} src="images/arrow-66-16.png" aria-hidden="true" alt="" />
+                    <img 
+                    src={musicArrow} className="musicArrowPrev" aria-hidden="true" alt="musicArrow" />
                     <span className="sr-only">Previous</span>
                 </a>
                 <a className="carousel-control-next" href="#musicSlider" role="button" data-slide="next">
-                    <img style={{position: "absolute", width: "21%", right: "38%", top: "0%", marginTop: "381%", marginRight: "63%"}} src="images/image.png" aria-hidden="true"  alt="" />
+                    <img src={musicArrowNext} className="musicArrowNext" aria-hidden="true"  alt="musicArrowNext" />
                     <span className="sr-only">Next</span>
                 </a>
             </div>  

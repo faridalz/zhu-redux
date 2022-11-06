@@ -11,6 +11,24 @@ import Vector3 from '../images/Vector3.png';
 import Vector4 from '../images/Vector4.png';
 import Cart from '../images/shopping-white1.svg'
 
+var toggleNavStatus = false;
+
+
+
+export const toggleCart = () => {
+    document.querySelector('.toggleMenu').classList.toggle('active');
+    if(window.innerWidth < 767){
+        if (toggleNavStatus === false) {
+            document.querySelector('body').style.overflow = 'hidden';
+            toggleNavStatus = true;
+        }
+        else if (toggleNavStatus === true) {
+            document.querySelector('body').style.overflow = 'auto';
+            toggleNavStatus = false;
+        }
+
+    }
+}
 
 
 
@@ -27,7 +45,6 @@ const Navbar = () => {
         setCartCount(count);
     }, [cart, cartCount]);
 
-    let toggleNavStatus = false;
 
     const mobileToggleNav = function() {
         const getSidebar = document.querySelector('.navbar-nav');
@@ -84,7 +101,6 @@ const Navbar = () => {
         document.getElementById('merchNav').style.display = 'none';
         document.getElementById('aboutNav').style.display = 'none';
         setHomeNav(true);
-        console.log('ndjkcsdkcnjds');
         if(window.innerWidth < 767){
             document.querySelector('.navbar-nav').style.width = '0px';
             document.querySelector('.navbar-nav .spotifyLogo').style.visibility = "hidden"
@@ -95,6 +111,9 @@ const Navbar = () => {
             toggleNavStatus = false;
         }
     }
+
+
+    
 
 
 
@@ -145,7 +164,7 @@ const Navbar = () => {
                             </div>
 
                             <button className="leftside1" type="button" 
-                            onClick={() => document.querySelector('.toggleMenu').classList.toggle('active')}>
+                            onClick={toggleCart}>
                                 <img src={Cart} alt="cart" />
                                 <sup className="badge badge-danger badge-pill">{cartCount}</sup>
                             </button>

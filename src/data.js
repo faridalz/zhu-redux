@@ -11,6 +11,9 @@ import Rectangle33 from './images/Rectangle 33.png';
 import Rectangle34 from './images/Rectangle 34.png';
 import Rectangle35 from './images/Rectangle 35.png';
 
+import Rectangle76 from './images/Rectangle 76.png';
+
+
 
 
 
@@ -120,86 +123,86 @@ export const data = [
 export const trackList = [
     {
         id: 1,
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         name: "Intro (Neon City)",
         date: "29 July / 2016."
     },
     {
         id: 2,
         name: "Cold Blooded",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 3,
         name: "In the Morning",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 4,
         name: "Secret Weapon",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 5,
         name: "Electrify Me",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 6,
         name: "Numb",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 7,
         name: "Palm of My Hand",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 8,
         name: "Money",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 9,
         name: "One Minute to Midnight",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 10,
         name: "Reaching",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 11,
         name: "Hometown Girl",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 12,
         name: "Good Life",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 13,
         name: "Generationwhy",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     },
     {
         id: 14,
         name: "Working For It",
-        image: "images/Rectangle 76.png",
+        image: Rectangle76,
         date: "29 July / 2016."
     }
 

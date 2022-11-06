@@ -26,7 +26,6 @@ const MerchMobile = () => {
                                 </p>
                                 <p style={{color: "green", marginBottom: "20%", fontSize: "3.5vw"}}>$ {item.price}</p>
                                 <button onClick={() => dispatch(addtoCart(item))} id="but1">Add To Cart</button>
-                                <button id="but2">MORE ITEMS</button>
                             </div>
                         </div>
                     ))}

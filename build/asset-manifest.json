@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/zhu-redux/static/css/main.88603ed1.chunk.css",
-    "main.js": "/zhu-redux/static/js/main.8bbd1a13.chunk.js",
-    "main.js.map": "/zhu-redux/static/js/main.8bbd1a13.chunk.js.map",
+    "main.css": "/zhu-redux/static/css/main.5edf721c.chunk.css",
+    "main.js": "/zhu-redux/static/js/main.0e56378b.chunk.js",
+    "main.js.map": "/zhu-redux/static/js/main.0e56378b.chunk.js.map",
     "runtime-main.js": "/zhu-redux/static/js/runtime-main.a9477f22.js",
     "runtime-main.js.map": "/zhu-redux/static/js/runtime-main.a9477f22.js.map",
     "static/css/2.a8027b44.chunk.css": "/zhu-redux/static/css/2.a8027b44.chunk.css",
-    "static/js/2.e0e12d05.chunk.js": "/zhu-redux/static/js/2.e0e12d05.chunk.js",
-    "static/js/2.e0e12d05.chunk.js.map": "/zhu-redux/static/js/2.e0e12d05.chunk.js.map",
+    "static/js/2.8fa51050.chunk.js": "/zhu-redux/static/js/2.8fa51050.chunk.js",
+    "static/js/2.8fa51050.chunk.js.map": "/zhu-redux/static/js/2.8fa51050.chunk.js.map",
     "index.html": "/zhu-redux/index.html",
     "static/css/2.a8027b44.chunk.css.map": "/zhu-redux/static/css/2.a8027b44.chunk.css.map",
-    "static/css/main.88603ed1.chunk.css.map": "/zhu-redux/static/css/main.88603ed1.chunk.css.map",
-    "static/js/2.e0e12d05.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.e0e12d05.chunk.js.LICENSE.txt",
+    "static/css/main.5edf721c.chunk.css.map": "/zhu-redux/static/css/main.5edf721c.chunk.css.map",
+    "static/js/2.8fa51050.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.8fa51050.chunk.js.LICENSE.txt",
     "static/media/126307605_2897984023769750_1708272536119593819_n 1.8c6546be.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 1.8c6546be.png",
     "static/media/126307605_2897984023769750_1708272536119593819_n 2.efe312e6.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 2.efe312e6.png",
     "static/media/126307605_2897984023769750_1708272536119593819_n 3.93ec7619.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 3.93ec7619.png",
@@ -49,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.a9477f22.js",
     "static/css/2.a8027b44.chunk.css",
-    "static/js/2.e0e12d05.chunk.js",
-    "static/css/main.88603ed1.chunk.css",
-    "static/js/main.8bbd1a13.chunk.js"
+    "static/js/2.8fa51050.chunk.js",
+    "static/css/main.5edf721c.chunk.css",
+    "static/js/main.0e56378b.chunk.js"
   ]
 }
