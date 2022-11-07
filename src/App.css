@@ -1194,15 +1194,10 @@ section.musicLists{
     font-size: 4vw;
     font-family: Mont;
     z-index: 10000;
-    margin-top: 10px;
   }
 
   #nav1>div>.nav-link:nth-child(1){
     margin-top: 140px;
-  }
-
-  #nav1>div>a {
-    margin-top: 10px;
   }
   
   #nav1>div>a:hover {
