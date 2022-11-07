@@ -507,6 +507,7 @@ Link {
 #buyItems {
   background-color: green;
   color: white;
+  margin-bottom: 20px;
 } 
  
 
@@ -1191,7 +1192,7 @@ section.musicLists{
     margin-right: auto;
     text-align: center;
     color: #DCEFEB;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: Mont;
     z-index: 10000;
   }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zhu-redux/static/css/main.ab13b4f1.chunk.css",
+    "main.css": "/zhu-redux/static/css/main.ab5f047e.chunk.css",
     "main.js": "/zhu-redux/static/js/main.d36fef5c.chunk.js",
     "main.js.map": "/zhu-redux/static/js/main.d36fef5c.chunk.js.map",
     "runtime-main.js": "/zhu-redux/static/js/runtime-main.a9477f22.js",
@@ -10,7 +10,7 @@
     "static/js/2.fba1f61c.chunk.js.map": "/zhu-redux/static/js/2.fba1f61c.chunk.js.map",
     "index.html": "/zhu-redux/index.html",
     "static/css/2.a8027b44.chunk.css.map": "/zhu-redux/static/css/2.a8027b44.chunk.css.map",
-    "static/css/main.ab13b4f1.chunk.css.map": "/zhu-redux/static/css/main.ab13b4f1.chunk.css.map",
+    "static/css/main.ab5f047e.chunk.css.map": "/zhu-redux/static/css/main.ab5f047e.chunk.css.map",
     "static/js/2.fba1f61c.chunk.js.LICENSE.txt": "/zhu-redux/static/js/2.fba1f61c.chunk.js.LICENSE.txt",
     "static/media/126307605_2897984023769750_1708272536119593819_n 1.8c6546be.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 1.8c6546be.png",
     "static/media/126307605_2897984023769750_1708272536119593819_n 2.efe312e6.png": "/zhu-redux/static/media/126307605_2897984023769750_1708272536119593819_n 2.efe312e6.png",
@@ -51,7 +51,7 @@
     "static/js/runtime-main.a9477f22.js",
     "static/css/2.a8027b44.chunk.css",
     "static/js/2.fba1f61c.chunk.js",
-    "static/css/main.ab13b4f1.chunk.css",
+    "static/css/main.ab5f047e.chunk.css",
     "static/js/main.d36fef5c.chunk.js"
   ]
 }
