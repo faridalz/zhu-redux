@@ -1,6 +1,6 @@
 # ZHU Music
 
-Website about ZHU, an American electronic music producer and singe
+Website about ZHU, an American electronic music producer and singer
 - You can reach out to show dates
 - ZHU products to buy
 - Photos and videos from the shows
