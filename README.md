@@ -13,7 +13,7 @@ Website about ZHU, an American electronic music producer and singer
 
 ## Home Page
 
-![ZHU](https://faridalz.github.io/personal/static/media/zhu11.ec7db6e6.PNG)
+![ZHU](https://raw.githubusercontent.com/faridalz/zhu-redux/master/src/images/zhu11.ec7db6e6.png)
 
 <br>
 
